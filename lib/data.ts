@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Iphone-3D website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-       tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "used three.js ,webgi,gsap,react to build an iphone website clone with an extensive 3D view of the new I-phone 14",
+       tags: ["React", "three.js", "webgi", "gsap", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "AIDukationDAO",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A collaborator in the DAO which mints NFT of artwork by underprivileged students and then sells it on the Marketplace",
+    tags: ["Motoko", "React", "ckBTC", "Tailwind", "Figma"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Summarizer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "a comperhensive text summerizer made using prompt engineering and  in python using engine keys from Open AI, a fun project deep diving into possibilities of AI",
+    tags: ["Python", " Open AI", "Text Summarizer", "API key"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
